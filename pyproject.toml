@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arxiv-to-md"
-version = "0.1.0"
+version = "0.2.0"
 description = "arXiv 논문 URL/ID를 입력하면 깔끔한 마크다운으로 변환하는 Python CLI 에이전트"
 readme = "README.md"
 license = {text = "MIT"}
@@ -28,6 +28,7 @@ dependencies = [
     "lxml>=5.0",
     "click>=8.1",
     "rich>=13.0",
+    "deep-translator>=1.11",
 ]
 
 [project.optional-dependencies]
